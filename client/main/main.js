@@ -16,9 +16,9 @@
       url: '/main',
       views:{
         // '': {templateUrl: 'main/main.tpl.html'},
-        'sidebar': {templateUrl: 'sidebar/sidebar.tpl.html', controller:'SideBarController'},
-        'infopanel': {templateUrl: 'infopanel/infopanel.tpl.html', controller:'InfoController'},
-        'graph':{templateUrl: '/graph/graph.tpl.html', controller:'GraphController'}
+        'sidebar': {templateUrl: 'main.sidebar/sidebar.tpl.html', controller:'SideBarController'},
+        'infopanel': {templateUrl: 'main.infopanel/infopanel.tpl.html', controller:'InfoController'},
+        'graph':{templateUrl: 'main.graph/graph.tpl.html', controller:'GraphController'}
       },
       controller: 'MainController',
     });
